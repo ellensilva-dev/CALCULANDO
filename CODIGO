@@ -12,9 +12,3 @@ print(f"Você está prestes a iniciar uma viagem de {distancia} Km.")
 print(f"O preço da sua passagem será de R${preco:.2f}")
 
 
-#Metodo simples
-
-distancia = float(input("Qual é a distância da viagem em KM? "))
-preco = distancia * 0.50 if distancia <= 200 else distancia * 0.45
-print(f"Você está prestes a iniciar uma viagem de {distancia} Km.")
-print(f"O preço da sua passagem será de R${preco:.2f}")
